@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0087c5;
+}
+
+/* homePage */
+/* content */
+.card {
+  width: 22rem;
+  background-color: #c4b4cb;
+}
+
+.items {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  border: 1px solid #9aa1a4;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  background-color: #c4b4cb;
+  font-weight: 600;
+}
+
+/* loginPage & registerPage */
+.card-login {
+  width: fit-content;
+  background-color: #c4b4cb;
+}
+
+.form-group {
+  width: 45rem;
+}
+
+#address {
+  height: 70px;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+/* keyboard Page */
+.bg-blue {
+  background-color: #a2e0fc;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.category-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fsearch {
+  width: 35%;
+}
+
+.fselect {
+  width: 30%;
+}
+
+/* details Page */
+.details {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+
+/* cartPage */
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.inputquantity {
+  width: 35%;
+  margin-left: 20px;
+}
+
+.btn-quantity {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0087c5;
+  align-items: center;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 85px ;
+  margin-top: 10px;
+}
+
+/* transactionHistory */
+
+.bg-transaction {
+  background-color: #ffffff;
+  width: 450px;
+  padding: 2px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+/* detailTransactionHistoryPage */
+
+.img-detail {
+  width: 200px;
+  height: 200px;
+}
